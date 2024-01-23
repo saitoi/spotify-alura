@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Music Streaming Interface</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+<style>
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+</style>
+</head>
+<body class="bg-gray-900 text-white">
+<div class="container mx-auto px-4">
+  <!-- Sidebar -->
+  <div class="flex">
+    <div class="w-64">
+      <!-- Logo -->
+      <div class="py-4">
+        <span class="text-white font-bold text-xl">Spotify</span>
+      </div>
+      <!-- Navigation -->
+      <ul class="mt-12">
+        <li class="text-gray-400 text-sm hover:text-white mb-2">Início</li>
+        <li class="text-gray-400 text-sm hover:text-white mb-2">Buscar</li>
+        <li class="text-gray-400 text-sm hover:text-white mb-2">Sua Biblioteca</li>
+      </ul>
+      <!-- Playlist creation -->
+      <div class="mt-12">
+        <p class="text-gray-400 text-sm mb-2">Crie sua primeira playlist</p>
+        <button class="text-green-500 text-sm border border-green-500 py-2 px-4 hover:bg-green-500 hover:text-white transition-all">Criar playlist</button>
+      </div>
+      <!-- Podcast section -->
+      <div class="mt-12">
+        <p class="text-gray-400 text-sm mb-2">Que tal seguir um podcast</p>
+      </div>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="flex-1">
+      <div class="flex justify-between items-center py-4">
+        <div class="flex space-x-4">
+          <button class="text-gray-400 hover:text-white">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="text-gray-400 hover:text-white">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+        <div class="flex space-x-4">
+          <button class="text-gray-400 hover:text-white">Inscrever-se</button>
+          <button class="bg-green-500 text-white py-2 px-4 rounded-full">Entrar</button>
+        </div>
+      </div>
+      <!-- Playlists -->
+      <h2 class="text-xl font-semibold mb-4">Playlists do Spotify</h2>
+      <div class="grid grid-cols-5 gap-4">
+        <div class="bg-gray-800 p-4 rounded-lg">
+          <img src="https://placehold.co/176x176" alt="Placeholder image for lofi beats playlist with a background of pink smoke" class="rounded-lg mb-4">
+          <h3 class="text-white text-lg mb-2">lofi beats</h3>
+          <p class="text-gray-400 text-sm">chill beats, lofi vibes, new tracks every week.</p>
+        </div>
+        <div class="bg-gray-800 p-4 rounded-lg">
+          <img src="https://placehold.co/176x176" alt="Placeholder image for Today's Top Hits playlist featuring a male artist" class="rounded-lg mb-4">
+          <h3 class="text-white text-lg mb-2">Today’s Top Hits</h3>
+          <p class="text-gray-400 text-sm">Jack Harlow is on top of the Hottest 50!</p>
+        </div>
+        <div class="bg-gray-800 p-4 rounded-lg">
+          <img src="https://placehold.co/176x176" alt="Placeholder image for Chillout Lounge playlist with a serene beach at sunset" class="rounded-lg mb-4">
+          <h3 class="text-white text-lg mb-2">Chillout Lounge</h3>
+          <p class="text-gray-400 text-sm">Just lean back and enjoy relaxed beats.</p>
+        </div>
+        <div class="bg-gray-800 p-4 rounded-lg">
+          <img src="https://placehold.co/176x176" alt="Placeholder image for All Out 2020s playlist featuring a female artist with colorful makeup" class="rounded-lg mb-4">
+          <h3 class="text-white text-lg mb-2">All Out 2020s</h3>
+          <p class="text-gray-400 text-sm">The biggest songs of the 2020s.</p>
+        </div>
+        <div class="bg-gray-800 p-4 rounded-lg">
+          <img src="https://placehold.co/176x176" alt="Placeholder image for Jazz in the Background playlist featuring a male artist sitting with a saxophone" class="rounded-lg mb-4">
+          <h3 class="text-white text-lg mb-2">Jazz in the Background</h3>
+          <p class="text-gray-400 text-sm">Soft instrumental Jazz for all your activities.</p>
+        </div>
+      </div>
+      <button class="text-gray-400 text-sm hover:text-white mt-4">Mostrar tudo</button>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <div class="flex justify-between items-center mt-12 py-4 border-t border-gray-800">
+    <!-- Left Footer -->
+    <div class="flex space-x-12">
+      <div>
+        <h5 class="text-white text-sm font-semibold mb-2">Empresa</h5>
+        <ul>
+          <li class="text-gray-400 text-sm hover:text-white mb-1">Sobre</li>
+          <li class="text-gray-400 text-sm hover:text-white mb-1">Empregos</li>
+          <li class="text-gray-400 text-sm hover:text-white mb-1">For the Record</li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="text-white text-sm font-semibold mb-2">Comunidades</h5>
+        <ul>
+          <li class="text-gray-400 text-sm hover:text-white mb-1">Para Artistas</li>
+          <li class="text-gray-400 text-sm hover:text-white mb-1">Desenvolvedores</li>
+          <li class="text-gray-400 text-sm hover:text-white mb-1">Publicidade</li>
+          <li class="text-gray-400 text-sm hover:text-white mb-1">Investidores</li>
+          <li class="text-gray-400 text-sm hover:text-white mb-1">Fornecedores</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Right Footer -->
+    <div class="flex space-x-12">
+      <div>
+        <h5 class="text-white text-sm font-semibold mb-2">Links úteis</h5>
+        <ul>
+          <li class="text-gray-400 text-sm hover:text-white mb-1">Suporte</li>
+          <li class="text-gray-400 text-sm hover:text-white mb-1">Aplicativo móvel grátis</li>
+        </ul>
+      </div>
+      <div class="flex space-x-4">
+        <a href="#" class="text-gray-400 hover:text-white">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-white">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-white">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

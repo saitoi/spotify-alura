@@ -6,6 +6,8 @@ h1 {
     color: #ffffff;
 }
 
+/* =========== SIDEBAR =========== */
+
 .sidebar {
     position: fixed;
     top: 0;
@@ -116,6 +118,7 @@ h1 {
     font-size: 14px;
     margin: 8px 0;
     padding: 16px 20px;
+    border-radius: 10px;
 }
 
 .section-playlist .section-playlist__content {
@@ -126,6 +129,7 @@ h1 {
 .section-playlist__content .text {
     padding-bottom: 14px;
     color: #ffffff;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .section-playlist__content .title {
@@ -179,4 +183,61 @@ h1 {
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
+}
+
+/* =========== FOOTER =========== */
+
+.footer {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    background: linear-gradient(to right, #a03592, #6398ee);
+    border: 0px solid transparent;
+    width: calc(100% - 16px);
+    margin: 8px;
+    padding: 11px 24px 8px 15px;
+}
+
+.footer .footer__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .footer__content .text {
+    font-family: 'DM Sans', sans-serif;
+    color: #ffffff;
+    line-height: 24px;
+    letter-spacing: .1px;
+}
+
+.footer .footer__content .title {
+    font-size: 14px;
+    font-weight: 525;
+    letter-spacing: .01em;
+}
+
+.footer .footer__content .subtitle {
+    font-size: .9em;
+    font-weight: 340;
+    letter-spacing: .05em;
+}
+
+.footer .footer__button {
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'DM Sans', sans-serif;
+    border: 0px solid transparent;
+    border-radius: 1.9em;
+    background-color: #ffffff;
+    padding: 17px 32px;
+}
+
+.footer .footer__button .footer__button__text {
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: .05em;
 }
