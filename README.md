@@ -1,4 +1,4 @@
-# Spotify Alura
+# Spotify - Página Inicial
 
 ## Visão Geral
 
@@ -22,3 +22,7 @@ O Spotify Alura é uma aplicação web que emula algumas funcionalidades do popu
 Para executar o Spotify Alura localmente:
 1. Clone o repositório.
 2. Abra o `index.html` em um navegador web.
+
+## Referências
+
+O repositório atual foi desenvolvido seguindo a proposta do projeto de Imersão Front-End da Alura. No entanto, ele se diferencia bastante do projeto original, especialmente em suas outras branches, onde foram realizadas várias modificações e melhorias significativas. Essas mudanças refletem uma evolução e personalização do conceito inicial, adaptando-se a novas necessidades e incorporando ideias inovadoras.
