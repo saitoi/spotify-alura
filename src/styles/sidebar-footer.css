@@ -4,10 +4,8 @@ body {
 }
 
 h1 {
-    color: #ffffff;
+    color: var(--text-base-light);
 }
-
-/* =========== SIDEBAR =========== */
 
 .sidebar {
     position: fixed;
@@ -60,7 +58,7 @@ h1 {
 }
 
 .sidebar nav ul li a:hover {
-    color: #ffffff;
+    color: var(--text-base-light);
 }
 
 .library {
@@ -127,7 +125,7 @@ h1 {
 
 .section-playlist__content .text {
     padding-bottom: 14px;
-    color: #ffffff;
+    color: var(--text-base-light);
 }
 
 .section-playlist__content .title {
@@ -140,7 +138,7 @@ h1 {
 }
 
 .section-playlist__content .section-playlist__button {
-    background-color: #ffffff;
+    background-color: var(--text-base-light);
     color: #000000;
     border-radius: 20px;
     font-size: 12px;
@@ -173,7 +171,7 @@ h1 {
 .languages .language__button {
     background-color: transparent;
     border: 1px solid #878787;
-    color: #ffffff;
+    color: var(--text-base-light);
     font-weight: bold;
     cursor: pointer;
     width: 170px;
@@ -205,7 +203,7 @@ h1 {
 }
 
 .footer .footer__content .text {
-    color: #ffffff;
+    color: var(--text-base-light);
     line-height: 24px;
     letter-spacing: .1px;
 }
@@ -227,11 +225,11 @@ h1 {
     font-weight: 600;
     border: 0px solid transparent;
     border-radius: 1.9em;
-    background-color: #ffffff;
+    background-color: var(--text-base-light);
     padding: 17px 32px;
 }
 
-.footer .footer__button .footer__button__text {
+.footer .footer__button .text {
     color: #000000;
     font-size: 15px;
     letter-spacing: .05em;
