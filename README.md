@@ -4,7 +4,7 @@
 
 O Spotify Alura é uma aplicação web que emula algumas funcionalidades do popular serviço de streaming de música, Spotify. É projetado como uma interface amigável onde os usuários podem navegar por diversas funcionalidades como início, busca, biblioteca e mais.
 
-## Recursos
+## Funcionalidades
 
 - **Barra de Navegação**: Os usuários podem navegar por diferentes seções como 'Início' e 'Buscar'.
 - **Acesso à Biblioteca**: Uma seção para acessar sua biblioteca com funcionalidades como criar playlists.
